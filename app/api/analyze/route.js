@@ -84,41 +84,40 @@ For each section, provide:
 Return valid JSON in this exact format:
 {
   "skills": {
-    "exists": true,
-    "feedback": "Good technical skills listed",
+    "exists": true/false,
+    "feedback": " eg: Good technical skills listed",
     "improvements": [
-      "Group similar skills together",
-      "Add proficiency levels"
+      "eg: Group similar skills together",
+      "eg: Skills in demand should be mentioned first"
     ]
   },
   "education": {
-    "exists": true,
-    "feedback": "Degrees listed but missing details",
+    "exists": true/false,
+    "feedback": "eg: college listed but missing qualification",
     "improvements": [
-      "Add graduation dates",
-      "Include relevant coursework"
+      "eg: Add graduation dates"
     ]
   },
   "experience": {
-    "exists": true,
-    "feedback": "Good job descriptions",
+    "exists": true/false,
+    "feedback": "eg: Good job descriptions",
     "improvements": [
-      "Add quantifiable achievements",
-      "Use more action verbs"
+      "eg: Add the start date of the exerience"
     ]
   },
   "projects": {
-    "exists": false,
-    "feedback": "Missing projects section",
+    "exists": true/false,
+    "feedback": "eg: Missing projects section",
     "improvements": [
-      "Add 2-3 key projects",
-      "Include project outcomes"
+      "eg: Include what technology was used in the project",
     ]
   },
   "contact": {
-    "exists": true,
+    "exists": true/false,
     "feedback": "Complete contact info",
-    "improvements": []
+    "improvements": [ 
+       "eg: Email address should also be added"
+    ]
   }
 }
 
